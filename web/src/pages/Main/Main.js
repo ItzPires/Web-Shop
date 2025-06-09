@@ -1,4 +1,5 @@
 import React from 'react';
+import Table from '../../components/Table/Table';
 
 const MainPage = () => {
   const products = [
@@ -25,13 +26,7 @@ const MainPage = () => {
   return (
     <div>
       <h2>Product List</h2>
-      <ul>
-        {products.map((p, index) => (
-          <li key={index}>
-            {p.name} – {p.description} – {p.price}€ – {p.brand} – {p.condition} – {p.location} – {p.date}
-          </li>
-        ))}
-      </ul>
+      <Table products={products} />
     </div>
   );
 };
