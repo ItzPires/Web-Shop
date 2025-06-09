@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Monitor Touchscreen",
+    "description": "Monitor Touchscreen Incrível",
+    "price": "612.00",
+    "brand": 6,
+    "condition": 1,
+    "location": "Aveiro",
+    "date": "2024/11/19",
+    "category": 3
+  },
+  {
+    "name": "Smart TV 16GB RAM",
+    "description": "Smart TV 16GB RAM Excelente Estado",
+    "price": "599.00",
+    "brand": 3,
+    "condition": 3,
+    "location": "Porto",
+    "date": "2025/03/29",
+    "category": 3
+  },
+  {
+    "name": "Laptop 32GB Storage",
+    "description": "Laptop 32GB Storage Maravilhoso",
+    "price": "916.00",
+    "brand": 4,
+    "condition": 3,
+    "location": "Lisboa",
+    "date": "2024/12/14",
+    "category": 2
+  },
+  {
+    "name": "Digital Camera 64GB Storage",
+    "description": "Digital Camera 64GB Storage Excelente Estado",
+    "price": "501.00",
+    "brand": 1,
+    "condition": 3,
+    "location": "Porto",
+    "date": "2024/09/25",
+    "category": 2
+  },
+  {
+    "name": "Digital Camera 8GB RAM",
+    "description": "Digital Camera 8GB RAM Maravilhoso",
+    "price": "945.00",
+    "brand": 3,
+    "condition": 1,
+    "location": "Coimbra",
+    "date": "2024/09/20",
+    "category": 3
+  },
+  {
+    "name": "Digital Camera Touchscreen",
+    "description": "Digital Camera Touchscreen Fantástico",
+    "price": "1098.00",
+    "brand": 3,
+    "condition": 1,
+    "location": "Lisboa",
+    "date": "2024/07/18",
+    "category": 1
+  },
+  {
+    "name": "Laptop Bluetooth",
+    "description": "Laptop Bluetooth Excelente Estado",
+    "price": "1391.00",
+    "brand": 1,
+    "condition": 3,
+    "location": "Aveiro",
+    "date": "2025/01/02",
+    "category": 3
+  },
+  {
+    "name": "Digital Camera 1080p Resolution",
+    "description": "Digital Camera 1080p Resolution Ótimo",
+    "price": "697.00",
+    "brand": 5,
+    "condition": 3,
+    "location": "Aveiro",
+    "date": "2024/11/28",
+    "category": 1
+  },
+  {
+    "name": "Digital Camera HDMI Port",
+    "description": "Digital Camera HDMI Port Ótimo",
+    "price": "1444.00",
+    "brand": 2,
+    "condition": 3,
+    "location": "Lisboa",
+    "date": "2024/11/18",
+    "category": 3
+  },
+  {
+    "name": "Smartphone Wi-Fi",
+    "description": "Smartphone Wi-Fi Maravilhoso",
+    "price": "1150.00",
+    "brand": 4,
+    "condition": 2,
+    "location": "Porto",
+    "date": "2024/09/25",
+    "category": 1
+  },
+  {
+    "name": "Smartwatch 4K Resolution",
+    "description": "Smartwatch 4K Resolution Fantástico",
+    "price": "1440.00",
+    "brand": 5,
+    "condition": 2,
+    "location": "Aveiro",
+    "date": "2024/08/21",
+    "category": 2
+  },
+  {
+    "name": "Laptop 16GB RAM",
+    "description": "Laptop 16GB RAM Fantástico",
+    "price": "555.00",
+    "brand": 4,
+    "condition": 2,
+    "location": "Lisboa",
+    "date": "2024/07/23",
+    "category": 3
+  },
+  {
+    "name": "Smart TV 32GB Storage",
+    "description": "Smart TV 32GB Storage Maravilhoso",
+    "price": "708.00",
+    "brand": 4,
+    "condition": 2,
+    "location": "Lisboa",
+    "date": "2025/03/06",
+    "category": 2
+  },
+  {
+    "name": "Audio Headphones 8GB RAM",
+    "description": "Audio Headphones 8GB RAM Excelente Estado",
+    "price": "548.00",
+    "brand": 4,
+    "condition": 3,
+    "location": "Lisboa",
+    "date": "2025/01/19",
+    "category": 2
+  },
+  {
+    "name": "Monitor 1080p Resolution",
+    "description": "Monitor 1080p Resolution Incrível",
+    "price": "980.00",
+    "brand": 2,
+    "condition": 1,
+    "location": "Viseu",
+    "date": "2024/11/03",
+    "category": 1
+  },
+  {
+    "name": "Smart TV Touchscreen",
+    "description": "Smart TV Touchscreen Fantástico",
+    "price": "1484.00",
+    "brand": 4,
+    "condition": 1,
+    "location": "Lisboa",
+    "date": "2025/04/09",
+    "category": 1
+  },
+  {
+    "name": "Monitor HDMI Port",
+    "description": "Monitor HDMI Port Maravilhoso",
+    "price": "1280.00",
+    "brand": 4,
+    "condition": 1,
+    "location": "Aveiro",
+    "date": "2024/09/06",
+    "category": 3
+  },
+  {
+    "name": "Digital Camera Bluetooth",
+    "description": "Digital Camera Bluetooth Incrível",
+    "price": "566.00",
+    "brand": 5,
+    "condition": 3,
+    "location": "Coimbra",
+    "date": "2025/03/04",
+    "category": 2
+  },
+  {
+    "name": "Monitor Touchscreen",
+    "description": "Monitor Touchscreen Fantástico",
+    "price": "974.00",
+    "brand": 1,
+    "condition": 1,
+    "location": "Aveiro",
+    "date": "2024/07/10",
+    "category": 1
+  },
+  {
+    "name": "Monitor 32GB Storage",
+    "description": "Monitor 32GB Storage Ótimo",
+    "price": "494.00",
+    "brand": 6,
+    "condition": 2,
+    "location": "Porto",
+    "date": "2025/03/25",
+    "category": 3
+  },
+  {
+    "name": "Monitor Bluetooth",
+    "description": "Monitor Bluetooth Ótimo",
+    "price": "625.00",
+    "brand": 6,
+    "condition": 2,
+    "location": "Aveiro",
+    "date": "2025/02/26",
+    "category": 1
+  },
+  {
+    "name": "Smartwatch 4K Resolution",
+    "description": "Smartwatch 4K Resolution Maravilhoso",
+    "price": "774.00",
+    "brand": 1,
+    "condition": 3,
+    "location": "Aveiro",
+    "date": "2024/10/28",
+    "category": 1
+  },
+  {
+    "name": "Smartwatch Bluetooth",
+    "description": "Smartwatch Bluetooth Ótimo",
+    "price": "561.00",
+    "brand": 3,
+    "condition": 1,
+    "location": "Viseu",
+    "date": "2024/07/24",
+    "category": 1
+  },
+  {
+    "name": "Smartphone 8GB RAM",
+    "description": "Smartphone 8GB RAM Excelente Estado",
+    "price": "392.00",
+    "brand": 6,
+    "condition": 1,
+    "location": "Viseu",
+    "date": "2025/02/23",
+    "category": 1
+  },
+  {
+    "name": "Digital Camera 1080p Resolution",
+    "description": "Digital Camera 1080p Resolution Incrível",
+    "price": "1425.00",
+    "brand": 6,
+    "condition": 2,
+    "location": "Viseu",
+    "date": "2025/02/08",
+    "category": 2
+  },
+  {
+    "name": "Digital Camera Bluetooth",
+    "description": "Digital Camera Bluetooth Maravilhoso",
+    "price": "859.00",
+    "brand": 2,
+    "condition": 3,
+    "location": "Lisboa",
+    "date": "2024/10/17",
+    "category": 1
+  },
+  {
+    "name": "Smartwatch 8GB RAM",
+    "description": "Smartwatch 8GB RAM Excelente Estado",
+    "price": "830.00",
+    "brand": 2,
+    "condition": 1,
+    "location": "Aveiro",
+    "date": "2025/03/10",
+    "category": 3
+  },
+  {
+    "name": "Smartwatch 1080p Resolution",
+    "description": "Smartwatch 1080p Resolution Ótimo",
+    "price": "1150.00",
+    "brand": 6,
+    "condition": 1,
+    "location": "Viseu",
+    "date": "2025/01/29",
+    "category": 1
+  },
+  {
+    "name": "Laptop Touchscreen",
+    "description": "Laptop Touchscreen Fantástico",
+    "price": "540.00",
+    "brand": 5,
+    "condition": 3,
+    "location": "Porto",
+    "date": "2025/02/03",
+    "category": 1
+  },
+  {
+    "name": "Monitor HDMI Port",
+    "description": "Monitor HDMI Port Incrível",
+    "price": "1147.00",
+    "brand": 2,
+    "condition": 3,
+    "location": "Viseu",
+    "date": "2025/02/06",
+    "category": 3
+  },
+  {
+    "name": "Digital Camera 64GB Storage",
+    "description": "Digital Camera 64GB Storage Incrível",
+    "price": "1297.00",
+    "brand": 1,
+    "condition": 2,
+    "location": "Porto",
+    "date": "2024/10/14",
+    "category": 1
+  },
+  {
+    "name": "Monitor Bluetooth",
+    "description": "Monitor Bluetooth Excelente Estado",
+    "price": "1463.00",
+    "brand": 4,
+    "condition": 3,
+    "location": "Porto",
+    "date": "2024/08/25",
+    "category": 3
+  },
+  {
+    "name": "Audio Headphones 64GB Storage",
+    "description": "Audio Headphones 64GB Storage Fantástico",
+    "price": "616.00",
+    "brand": 6,
+    "condition": 3,
+    "location": "Lisboa",
+    "date": "2025/03/19",
+    "category": 3
+  },
+  {
+    "name": "Tablet 4K Resolution",
+    "description": "Tablet 4K Resolution Excelente Estado",
+    "price": "619.00",
+    "brand": 6,
+    "condition": 1,
+    "location": "Lisboa",
+    "date": "2025/01/11",
+    "category": 2
+  },
+  {
+    "name": "Smartphone 64GB Storage",
+    "description": "Smartphone 64GB Storage Maravilhoso",
+    "price": "473.00",
+    "brand": 6,
+    "condition": 3,
+    "location": "Porto",
+    "date": "2024/06/25",
+    "category": 3
+  },
+  {
+    "name": "Smart TV Touchscreen",
+    "description": "Smart TV Touchscreen Fantástico",
+    "price": "1205.00",
+    "brand": 5,
+    "condition": 2,
+    "location": "Porto",
+    "date": "2024/08/27",
+    "category": 1
+  },
+  {
+    "name": "Audio Headphones 8GB RAM",
+    "description": "Audio Headphones 8GB RAM Excelente Estado",
+    "price": "1032.00",
+    "brand": 6,
+    "condition": 1,
+    "location": "Coimbra",
+    "date": "2024/11/08",
+    "category": 1
+  },
+  {
+    "name": "Tablet 1080p Resolution",
+    "description": "Tablet 1080p Resolution Fantástico",
+    "price": "883.00",
+    "brand": 4,
+    "condition": 2,
+    "location": "Lisboa",
+    "date": "2024/08/19",
+    "category": 3
+  },
+  {
+    "name": "Smart TV 4K Resolution",
+    "description": "Smart TV 4K Resolution Ótimo",
+    "price": "530.00",
+    "brand": 1,
+    "condition": 1,
+    "location": "Aveiro",
+    "date": "2025/05/20",
+    "category": 2
+  },
+  {
+    "name": "Smart TV 16GB RAM",
+    "description": "Smart TV 16GB RAM Ótimo",
+    "price": "1021.00",
+    "brand": 6,
+    "condition": 2,
+    "location": "Aveiro",
+    "date": "2025/03/07",
+    "category": 2
+  },
+  {
+    "name": "Smartwatch 16GB RAM",
+    "description": "Smartwatch 16GB RAM Ótimo",
+    "price": "548.00",
+    "brand": 5,
+    "condition": 1,
+    "location": "Porto",
+    "date": "2025/05/09",
+    "category": 3
+  },
+  {
+    "name": "Audio Headphones 32GB Storage",
+    "description": "Audio Headphones 32GB Storage Maravilhoso",
+    "price": "1061.00",
+    "brand": 2,
+    "condition": 2,
+    "location": "Aveiro",
+    "date": "2025/05/28",
+    "category": 3
+  },
+  {
+    "name": "Smartphone HDMI Port",
+    "description": "Smartphone HDMI Port Incrível",
+    "price": "995.00",
+    "brand": 2,
+    "condition": 2,
+    "location": "Aveiro",
+    "date": "2024/09/24",
+    "category": 3
+  },
+  {
+    "name": "Impressora 32GB Storage",
+    "description": "Impressora 32GB Storage Maravilhoso",
+    "price": "1439.00",
+    "brand": 2,
+    "condition": 3,
+    "location": "Aveiro",
+    "date": "2024/11/13",
+    "category": 1
+  },
+  {
+    "name": "Smart TV 8GB RAM",
+    "description": "Smart TV 8GB RAM Excelente Estado",
+    "price": "1298.00",
+    "brand": 3,
+    "condition": 3,
+    "location": "Lisboa",
+    "date": "2024/06/24",
+    "category": 3
+  },
+  {
+    "name": "Audio Headphones Wi-Fi",
+    "description": "Audio Headphones Wi-Fi Maravilhoso",
+    "price": "491.00",
+    "brand": 2,
+    "condition": 3,
+    "location": "Porto",
+    "date": "2024/07/03",
+    "category": 2
+  },
+  {
+    "name": "Laptop 1080p Resolution",
+    "description": "Laptop 1080p Resolution Fantástico",
+    "price": "935.00",
+    "brand": 2,
+    "condition": 3,
+    "location": "Viseu",
+    "date": "2025/06/05",
+    "category": 2
+  },
+  {
+    "name": "Monitor HDMI Port",
+    "description": "Monitor HDMI Port Fantástico",
+    "price": "459.00",
+    "brand": 6,
+    "condition": 2,
+    "location": "Viseu",
+    "date": "2024/08/24",
+    "category": 1
+  },
+  {
+    "name": "Smartphone HDMI Port",
+    "description": "Smartphone HDMI Port Ótimo",
+    "price": "1343.00",
+    "brand": 5,
+    "condition": 3,
+    "location": "Aveiro",
+    "date": "2025/01/03",
+    "category": 1
+  },
+  {
+    "name": "Smart TV 8GB RAM",
+    "description": "Smart TV 8GB RAM Ótimo",
+    "price": "639.00",
+    "brand": 2,
+    "condition": 1,
+    "location": "Aveiro",
+    "date": "2025/05/24",
+    "category": 3
+  }
+]
