@@ -1,0 +1,11 @@
+export const CATEGORIES_PRODUCTS = {
+    SMARTHONES: 1,
+    TABLETS: 2,
+    OTHERS: 3
+};
+
+export const CATEGORIES_PRODUCTS_LABELS = {
+    [CATEGORIES_PRODUCTS.SMARTHONES]: 'Smartphones',
+    [CATEGORIES_PRODUCTS.TABLETS]: 'Tablets',
+    [CATEGORIES_PRODUCTS.OTHERS]: 'Others'
+};
