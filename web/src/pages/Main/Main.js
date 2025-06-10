@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Table from '../../components/Table/Table';
 import Filters from '../../components/Filters/Filters';
 import Navbar from '../../components/Navbar/Navbar';
+import Service from '../../services/Service';
 import './Main.css';
 
 /**
@@ -32,7 +33,7 @@ const MainPage = () => {
   // Function to handle filter changes - Ex. when a user selects/deselects a filter option
   const handleFilterChange = (filter, value) => {
     const newFilters = { ...filters };
-  
+
     if (newFilters[filter].includes(value)) {
       newFilters[filter] = newFilters[filter].filter(v => v !== value);
     } else {
@@ -43,21 +44,19 @@ const MainPage = () => {
   };
 
   // Function to handle file upload and parse JSON data
-  const handleFileUpload = (file) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      try {
-        const data = JSON.parse(e.target.result);
-        if (Array.isArray(data)) {
-          setProducts(data);
-        } else {
-          alert('The uploaded file must contain products.');
-        }
-      } catch (err) {
-        alert('Error parsing JSON file. Please ensure it is valid JSON.');
+  const handleFileUpload = async (file) => {
+    try {
+      const processedProducts = await Service.processFile(file);
+
+      if (processedProducts.length === 0) {
+        alert('No valid products found in the file');
+        return;
       }
-    };
-    reader.readAsText(file);
+
+      setProducts(processedProducts);
+    } catch (error) {
+      alert(`Error: ${error.message}`);
+    }
   };
 
   // Filter products based on selected filters
