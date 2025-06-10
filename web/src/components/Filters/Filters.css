@@ -1,0 +1,35 @@
+.filters-wrapper {
+  width: 100%;
+  padding: 16px;
+  overflow-y: auto;
+  flex: 1;
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.filters-wrapper h3 {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.filter-group {
+  margin-bottom: 24px;
+}
+
+.filter-group strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.filter-option {
+  margin-bottom: 0px;
+}
+
+.filter-option label {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-option input[type="checkbox"] {
+  margin-right: 8px;
+}

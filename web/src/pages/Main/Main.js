@@ -1,34 +1,107 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Table from '../../components/Table/Table';
+import Filters from '../../components/Filters/Filters';
+import Navbar from '../../components/Navbar/Navbar';
+import './Main.css';
 
+/**
+ * MainPage component that manages and renders the main layout of the application.
+ * 
+ * This component handles the state and logic for:
+ * - Managing a list of products, which can be uploaded via a file.
+ * - Filtering products based on category, brand, condition, and location.
+ * - Rendering a table of products that match the selected filters.
+ * 
+ */
 const MainPage = () => {
-  const products = [
-    {
-      name: 'Iphone Back 256 GB',
-      description: 'Iphone usado com 256 GB de armazenamento',
-      price: '500.00',
-      brand: 1,
-      condition: 3,
-      location: 'Lisboa',
-      date: '2023/12/10',
-      category: 1
-    },
-    {
-      name: 'Samsung Galaxy S21',
-      description: 'Smartphone com 128 GB de armazenamento',
-      price: '100.00',
-      brand: 2,
-      condition: 2,
-      location: 'Aveiro',
-      date: '2023/12/07',
-      category: 1
-    }
-  ];
+  const [products, setProducts] = useState([]);
 
+  const [filters, setFilters] = useState({
+    category: [],
+    brand: [],
+    condition: [],
+    location: []
+  });
+
+  // Function to get unique values for filter options - Ex. get unique categories, brands, etc.
+  const getUniqueValues = (key) => {
+    const values = products.map((p) => p[key]);
+    return [...new Set(values)];
+  };
+
+  // Function to handle filter changes - Ex. when a user selects/deselects a filter option
+  const handleFilterChange = (filter, value) => {
+    const newFilters = { ...filters };
+  
+    if (newFilters[filter].includes(value)) {
+      newFilters[filter] = newFilters[filter].filter(v => v !== value);
+    } else {
+      newFilters[filter] = [...newFilters[filter], value];
+    }
+
+    setFilters(newFilters);
+  };
+
+  // Function to handle file upload and parse JSON data
+  const handleFileUpload = (file) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (Array.isArray(data)) {
+          setProducts(data);
+        } else {
+          alert('The uploaded file must contain products.');
+        }
+      } catch (err) {
+        alert('Error parsing JSON file. Please ensure it is valid JSON.');
+      }
+    };
+    reader.readAsText(file);
+  };
+
+  // Filter products based on selected filters
+  const filteredProducts = products.filter((p) => {
+    const categoryMatch =
+      filters.category.length === 0 || filters.category.includes(p.category);
+    const brandMatch =
+      filters.brand.length === 0 || filters.brand.includes(p.brand);
+    const conditionMatch =
+      filters.condition.length === 0 || filters.condition.includes(p.condition);
+    const locationMatch =
+      filters.location.length === 0 || filters.location.includes(p.location);
+
+    return categoryMatch && brandMatch && conditionMatch && locationMatch; // If true, product matches all selected filters
+  });
+
+  // Render the main page with filters and table - If no products, show a message, else show filters and table
   return (
-    <div>
-      <h2>Product List</h2>
-      <Table products={products} />
+    <div className="main-page-wrapper">
+      <Navbar onFileUpload={handleFileUpload} />
+
+      {!filteredProducts.length ? (
+        <div className="no-products-container">
+          <p className="no-products-message">No products available</p>
+        </div>
+      ) : (
+        <div className="main-page-container">
+          <div className="sidebar">
+            <Filters
+              filters={filters}
+              onChange={handleFilterChange}
+              filterOptions={{
+                category: getUniqueValues('category'),
+                brand: getUniqueValues('brand'),
+                condition: getUniqueValues('condition'),
+                location: getUniqueValues('location'),
+              }}
+            />
+          </div>
+          <div className="content">
+            <Table products={filteredProducts} />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
